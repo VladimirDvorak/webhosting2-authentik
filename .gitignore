@@ -1,0 +1,32 @@
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Authentik data directories
+media/
+certs/
+custom-templates/
+
+# Database backups
+*.sql
+backup_*.sql
+
+# Docker volumes (if using local driver)
+database/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
