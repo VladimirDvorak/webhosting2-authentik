@@ -69,6 +69,7 @@ services:
 
 networks:
   authentik-network:
+  name: ${DOCKER_NETWORK:-net_authentik}
     driver: bridge
 
 volumes:
