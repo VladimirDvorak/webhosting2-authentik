@@ -22,6 +22,7 @@ services:
     - database:/var/lib/postgresql/data
   server:
     command: server
+    container_name: authentik
     depends_on:
       postgresql:
         condition: service_healthy
